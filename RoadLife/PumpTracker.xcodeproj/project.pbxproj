@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA000001 /* RoadLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100001; };
+		AA000001 /* PumpTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100001; };
 		AA000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100002; };
 		AA000003 /* GasEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100003; };
 		AA000004 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100004; };
@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA100001 /* RoadLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadLifeApp.swift; sourceTree = "<group>"; };
+		AA100001 /* PumpTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PumpTrackerApp.swift; sourceTree = "<group>"; };
 		AA100002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA100003 /* GasEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasEntry.swift; sourceTree = "<group>"; };
 		AA100004 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
@@ -34,7 +34,7 @@
 		AA100010 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		AA100011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA100012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA200001 /* RoadLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA200001 /* PumpTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PumpTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,22 +51,22 @@
 		AA400001 = {
 			isa = PBXGroup;
 			children = (
-				AA400002 /* RoadLifeApp */,
+				AA400002 /* PumpTrackerApp */,
 				AA400005 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AA400002 /* RoadLifeApp */ = {
+		AA400002 /* PumpTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
-				AA100001 /* RoadLifeApp.swift */,
+				AA100001 /* PumpTrackerApp.swift */,
 				AA100002 /* ContentView.swift */,
 				AA400003 /* Models */,
 				AA400004 /* Views */,
 				AA100011 /* Assets.xcassets */,
 				AA400006 /* Preview Content */,
 			);
-			path = RoadLifeApp;
+			path = PumpTrackerApp;
 			sourceTree = "<group>";
 		};
 		AA400003 /* Models */ = {
@@ -94,7 +94,7 @@
 		AA400005 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA200001 /* RoadLife.app */,
+				AA200001 /* PumpTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA500001 /* RoadLife */ = {
+		AA500001 /* PumpTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA700002 /* Build configuration list for PBXNativeTarget "RoadLife" */;
+			buildConfigurationList = AA700002 /* Build configuration list for PBXNativeTarget "PumpTracker" */;
 			buildPhases = (
 				AA600001 /* Sources */,
 				AA300001 /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = RoadLife;
-			productName = RoadLife;
-			productReference = AA200001 /* RoadLife.app */;
+			name = PumpTracker;
+			productName = PumpTracker;
+			productReference = AA200001 /* PumpTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA700001 /* Build configuration list for PBXProject "RoadLife" */;
+			buildConfigurationList = AA700001 /* Build configuration list for PBXProject "PumpTracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA500001 /* RoadLife */,
+				AA500001 /* PumpTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -177,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA000001 /* RoadLifeApp.swift in Sources */,
+				AA000001 /* PumpTrackerApp.swift in Sources */,
 				AA000002 /* ContentView.swift in Sources */,
 				AA000003 /* GasEntry.swift in Sources */,
 				AA000004 /* Trip.swift in Sources */,
@@ -319,7 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RoadLifeApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PumpTrackerApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -332,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.roadlife.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pumptracker.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RoadLifeApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PumpTrackerApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -360,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.roadlife.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pumptracker.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -371,7 +371,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA700001 /* Build configuration list for PBXProject "RoadLife" */ = {
+		AA700001 /* Build configuration list for PBXProject "PumpTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA900001 /* Debug */,
@@ -380,7 +380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA700002 /* Build configuration list for PBXNativeTarget "RoadLife" */ = {
+		AA700002 /* Build configuration list for PBXNativeTarget "PumpTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA900003 /* Debug */,
